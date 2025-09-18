@@ -14,6 +14,7 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 
+//commented code above is without persistence
 
 export const useDogStore = create()(
   persist(
